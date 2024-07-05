@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Departments to Paragraphs</title>
+  <link rel="stylesheet" href="css.css"> 
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <div class="input-group">
+      <input type="text" id="departmentName" placeholder="Enter department name">
+      <button onclick="addDepartment()">Add Class</button>
+    </div>
+    
+    <div class="paragraph" id="departmentList">
+      
+    </div>
+  </div>
+
+  
+  <section class="container1">
+    <div class="paragraph">
+      <h2>First paragraph</h2>
+      <p>This is the first paragraph. Initially displayed by default.</p>
+      <button onclick="toggleVisibility(1)">Toggle Paragraph</button>
+    </div>
+    <div class="paragraph">
+      <h2>Second paragraph</h2>
+      <p>This is the second paragraph. Initially displayed by default.</p>
+      <button onclick="toggleVisibility(2)">Toggle Paragraph</button>
+    </div>
+    <div class="paragraph">
+      <h2>Third paragraph</h2>
+      <p>This is the third paragraph. Initially displayed by default.</p>
+      <button onclick="toggleVisibility(3)">Toggle Paragraph</button>
+    </div>
+  </section>
+
+  
+  <section class="container2">
+    <button id="myButton" onclick="changeText()">Click me</button>
+  </section>
+
+  <script src="js.js"></script> 
+</body>
+
+</html>

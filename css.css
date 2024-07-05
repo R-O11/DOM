@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.container1 {
+  max-width: 600px;
+  margin: auto;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.paragraph h2 {
+  margin-top: 0;
+}
+
+.paragraph p {
+  margin-bottom: 10px;
+}
+
+.paragraph button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.container2 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.disabled {
+  pointer-events: none;
+ 
+  opacity: 0.5;
+  
+}
